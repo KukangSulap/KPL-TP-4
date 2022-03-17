@@ -3,7 +3,6 @@ package com.barney.kpltp4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,5 +16,10 @@ public class MainActivity extends AppCompatActivity {
 
         //set inputan yg di soal nama nya X
         hutao.SapaUser("yeriko makici");
+
+        TextView miomio = findViewById(R.id.miomio);
+        DataGeneric y = new DataGeneric("1302204094", miomio);
+
+        y.PrintData();
     }
 }
